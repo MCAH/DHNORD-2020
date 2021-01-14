@@ -1,3 +1,14 @@
+#!usr/bin/env python
+# coding:utf-8
+"""
+Name : xgb_pred_Visualizations_mcah_error_catch.py
+Author : Prasham Sheth
+Contact : pds2136@columbia.edu
+Description : This file runs the script to execute the XGBoost classifier on the given folder of RAW images by first converting them into their respective Discrete Fourier Transformed version followed by running XGBoost model to generate a CSV file with probabilities for each of the images. It also created Visualizations with bright spots detected and a CSV file for the same as well.
+
+"""
+
+
 import os
 import re
 from fnmatch import fnmatch
